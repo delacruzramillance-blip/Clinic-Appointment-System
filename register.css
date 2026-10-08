@@ -1,0 +1,209 @@
+body {
+			font-family:'Times New Roman', Times, serif;
+		}
+		.button {
+			align-self: stretch;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background: #FFFFFF;
+			border-radius: 5px;
+			border: 2px solid #159A9C;
+			padding-top: 9px;
+			padding-bottom: 9px;
+			text-align: left;
+		}
+		.button-row-view {
+			display: flex;
+			align-items: center;
+			background: #DDF4F3;
+			border-radius: 10px;
+			border: none;
+			padding: 12px 13px;
+			margin-bottom: 31px;
+			text-align: left;
+		}
+		.column {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background: #FFFFFF;
+			padding-top: 72px;
+			margin-right: 25px;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+		}
+		.column2 {
+			width: 121px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 4px;
+		}
+		.column3 {
+			width: 245px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-bottom: 14px;
+			gap: 4px;
+		}
+		.column4 {
+			width: 245px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-bottom: 20px;
+			gap: 3px;
+		}
+		.column5 {
+			width: 245px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 28px;
+			gap: 8px;
+		}
+		.contain {
+			display: flex;
+			flex-direction: column;
+			background: #FFFFFF;
+		}
+		.image {
+			width: 256px;
+			height: 459px;
+			margin-left: 54px;
+			margin-right: 64px;
+			object-fit: fill;
+		}
+		.image2 {
+			width: 1px;
+			height: 5px;
+			object-fit: fill;
+		}
+		.input {
+			color: #000000;
+			font-size: 12px;
+			align-self: stretch;
+			background: #DDF4F3;
+			border-radius: 10px;
+			border: none;
+			padding: 13px;
+		}
+		.input2 {
+			color: #000000;
+			font-size: 12px;
+			align-self: stretch;
+			background: #DDF4F3;
+			border-radius: 10px;
+			border: none;
+			padding: 13px 8px;
+		}
+		.input3 {
+			color: #000000;
+			font-size: 12px;
+			align-self: stretch;
+			background: #DDF4F3;
+			border-radius: 10px;
+			border: none;
+			padding: 10px 12px;
+		}
+		.input4 {
+			color: #000000;
+			font-size: 12px;
+			align-self: stretch;
+			background: #DDF4F3;
+			border-radius: 10px;
+			border: none;
+			padding: 14px 13px;
+		}
+		.row-view {
+			width: 750px;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			background: #DDF4F3;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+		}
+		.row-view2 {
+			width: 245px;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			margin-bottom: 13px;
+			gap: 3px;
+		}
+		.text {
+			color: #263238;
+			font-size: 30px;
+			margin-bottom: 15px;
+		}
+		.text2 {
+			color: #000000;
+			font-size: 14px;
+			margin-left: 1px;
+		}
+		.text3 {
+			color: #000000;
+			font-size: 12px;
+			margin-right: 176px;
+		}
+		.text4 {
+			color: #263238;
+			font-size: 15px;
+		}
+		.text5 {
+			color: #000000;
+			font-size: 10px;
+		}
+		.view {
+			overflow: hidden;
+			align-self: stretch;
+			background: #FFFFFF;
+		}
+		.view2 {
+			align-self: stretch;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding-top: 134px;
+			padding-bottom: 134px;
+		}
+        .dropdown-container {
+            width: 245px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 22px;
+            gap: 4px;
+        }
+
+
+        .dropdown-container select {
+            width: 245px;
+            height: 42px;
+            padding: 0 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            background-color: #DDF4F3;
+            color: #263238;;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* Kapag naka-click */
+        .dropdown-container select:focus {
+            box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.15);
+        }
+
+        /* Dropdown options */
+        .dropdown-container select option {
+            padding: 10px;
+            background-color: #DDF4F3;
+            color: #263238;;
+        }

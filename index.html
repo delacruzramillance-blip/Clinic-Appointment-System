@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+		<div class="contain">
+		<div class="view">
+			<div class="view2">
+				<div class="row-view">
+					<img
+						src="https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sYdQn01u11/fp1v4ceb_expires_30_days.png" 
+						class="image"
+					/>
+
+					<form class="column" onsubmit="loginUser(event)">
+						<span class="text" >
+							SING IN
+						</span>
+						<div class="column2">
+							<span class="text2" >
+								Email
+							</span>
+							<input
+								type="text"
+								placeholder="juandelacruz@gmail.com"
+								class="input"
+								id="email"
+								required
+								required
+							/>
+						</div>
+						<div class="column3">
+							<span class="text2" >
+								Password
+							</span>
+							<input
+								type="text"
+								placeholder="**************"
+								class="input2"
+								id="password"
+								required
+							/>
+						</div>
+
+						<div class="dropdown-container">
+							<select id="userType" name="userType">
+							<option value="patient">Patient</option>
+							<option value="admin">Admin</option>
+							<option value="doctor">Doctor</option>
+						</select>
+						</div>
+
+						<button type="submit" class="button">
+								Sign In
+							</span>
+						</button>
+						<div class="column4">
+							<button class="button2"
+								onclick="window.location.href='register.html'">
+								<span class="text4" >
+									Register
+								</span>
+							</button>
+							<span class="text5" >
+								Dont Have Account?
+							</span>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="index.js"></script>
+</body>
+</html>

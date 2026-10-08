@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register</title>
+
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+    <div class="contain">
+
+        <div class="view">
+
+            <div class="view2">
+
+                <div class="row-view">
+
+                    <img
+                        src="https://storage.googleapis.com/tagjs-prod.appspot.com/v1/sYdQn01u11/il5pco0k_expires_30_days.png"
+                        class="image"
+                    >
+
+                    <form
+                        class="column"
+                        onsubmit="registerUser(event)"
+                    >
+
+                        <span class="text">
+                            SIGN UP
+                        </span>
+
+                        <div class="row-view2">
+
+                            <div class="column2">
+
+                                <span class="text2">
+                                    Last Name
+                                </span>
+
+                                <input
+                                    type="text"
+                                    id="lastName"
+                                    placeholder="Dela Cruz"
+                                    class="input"
+                                    required
+                                >
+
+                            </div>
+
+                            <div class="column2">
+
+                                <span class="text2">
+                                    First Name
+                                </span>
+
+                                <input
+                                    type="text"
+                                    id="firstName"
+                                    placeholder="Juan"
+                                    class="input2"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+                        <div class="column3">
+
+                            <span class="text2">
+                                Email
+                            </span>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="juandelacruz@gmail.com"
+                                class="input3"
+                                required
+                            >
+
+                        </div>
+
+                        <div class="column4">
+
+                            <span class="text2">
+                                Password
+                            </span>
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="**************"
+                                class="input4"
+                                required
+                            >
+
+                        </div>
+
+                        <input
+                            type="hidden"
+                            id="userType"
+                            value="patient"
+                        >
+
+                        <div class="column5">
+
+                            <button
+                                type="submit"
+                                class="button"
+                            >
+
+                                <span class="text4">
+                                    Register
+                                </span>
+
+                            </button>
+
+                            <span class="text5">
+                                Already have an account?
+
+                                <a href="index.html">
+                                    Sign In
+                                </a>
+
+                            </span>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="register.js"></script>
+
+</body>
+
+</html>
